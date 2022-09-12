@@ -1,4 +1,4 @@
-package com.calculation.controller;
+package com.calculation;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
-public class Calculation {
+public class CalculationController {
     @GetMapping("/")
     public String form(){
         return "/result" ;
@@ -17,5 +17,4 @@ public class Calculation {
         model.addAttribute("result",(number*230000));
         return "/result" ;
     }
-
 }

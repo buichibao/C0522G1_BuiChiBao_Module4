@@ -11,8 +11,8 @@
     <title>Title</title>
 </head>
 <body>
-    <form action="/enter" method="get">
-        <input name="xyz" type="text">
+    <form action="/result" method="get">
+        <input type="text" name="xyz" >
         <button type="submit">convert</button>
     </form>
     <h3>Result :${result}</h3>

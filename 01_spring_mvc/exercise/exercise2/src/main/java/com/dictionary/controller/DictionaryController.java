@@ -8,18 +8,24 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
-public class Dictionary {
+public class DictionaryController {
 
     @Autowired
     IDictionaryService iDictionaryService;
 
-    @GetMapping("/input")
+    @GetMapping("/")
     public String input(){
-        return "result";
+        return "/result";
     }
-    @GetMapping("/enter")
+
+    @GetMapping("/result")
     public String trans(@RequestParam String xyz , Model model){
-        model.addAttribute("result",xyz);
+        String translate = iDictionaryService.translate(xyz);
+        if(translate == null){
+            model.addAttribute("result","Not fount!");
+            return "/result";
+        }
+        model.addAttribute("result",translate);
         return "/result";
     }
 }
