@@ -24,7 +24,7 @@
   </form>
   <h3>Result :
      <c:forEach items="${result}" var="str">
-        ${str}<br>
+       ${str}<br>
      </c:forEach>
   </h3>
   </body>

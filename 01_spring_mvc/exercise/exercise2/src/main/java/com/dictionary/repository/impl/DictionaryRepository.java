@@ -7,7 +7,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Repository
-
 public class DictionaryRepository implements IDictionaryRepository {
 
     private static Map<String,String> list = new HashMap<>();

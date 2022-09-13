@@ -12,6 +12,7 @@ public class CalculationController {
     @Autowired
     ICalculationService iCalculationService;
     @GetMapping("/")
+
     public String form(){
         return "/result" ;
     }

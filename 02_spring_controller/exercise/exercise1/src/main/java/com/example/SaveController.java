@@ -13,9 +13,10 @@ public class SaveController {
     }
 
    @GetMapping("/save")
-    public String save(@RequestParam (value = "choose") String[] strings, Model model){
+    public String save(@RequestParam (value = "choose", defaultValue = "Please choose") String[] strings, Model model){
 
-        model.addAttribute("result",strings);
-        return "index";
+            model.addAttribute("result",strings);
+
+       return "index";
    }
 }
