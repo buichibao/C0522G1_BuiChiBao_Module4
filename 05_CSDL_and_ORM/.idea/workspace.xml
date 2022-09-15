@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4b53725f-6beb-4c6d-84e6-309e0e8ea6de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/.idea/modules/exercise.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/src/main/java/com/example/repository/ipml/ConnectionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/src/main/resources/hibernate.conf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise/exercise1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise/exercise1/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise/exercise1/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise/exercise1/src/main/java/com/example/controller/MusicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise/exercise1/src/main/java/com/example/model/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise/exercise1/src/main/java/com/example/repository/IMusicRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise/exercise1/src/main/java/com/example/repository/ipml/ConnectionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise/exercise1/src/main/java/com/example/repository/ipml/MusicRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise/exercise1/src/main/java/com/example/service/IMusicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise/exercise1/src/main/java/com/example/service/ipml/MusicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise/exercise1/src/main/resources/hibernate.conf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise/exercise1/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise/exercise1/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise/exercise1/src/main/webapp/WEB-INF/views/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise/exercise1/src/main/webapp/WEB-INF/views/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise/exercise1/src/main/webapp/WEB-INF/views/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise/exercise1/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/.gradle/6.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/build/classes/java/main/com/example/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/build/classes/java/main/com/example/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/build/classes/java/main/com/example/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/build/classes/java/main/com/example/model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/build/classes/java/main/com/example/repository/IProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/build/classes/java/main/com/example/repository/IProductRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/build/classes/java/main/com/example/repository/ipml/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/build/classes/java/main/com/example/repository/ipml/ProductRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/build/classes/java/main/com/example/service/IProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/build/classes/java/main/com/example/service/IProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/build/classes/java/main/com/example/service/ipml/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/build/classes/java/main/com/example/service/ipml/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/build/libs/exercise-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/build/libs/exercise-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/src/main/java/com/example/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/src/main/java/com/example/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/src/main/java/com/example/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/src/main/java/com/example/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/src/main/java/com/example/repository/IProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/src/main/java/com/example/repository/IProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/src/main/java/com/example/repository/ipml/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/src/main/java/com/example/repository/ipml/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/src/main/java/com/example/service/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/src/main/java/com/example/service/IProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/src/main/java/com/example/service/ipml/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/src/main/java/com/example/service/ipml/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/src/main/webapp/WEB-INF/views/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/src/main/webapp/WEB-INF/views/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/src/main/webapp/WEB-INF/views/delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/src/main/webapp/WEB-INF/views/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/src/main/webapp/WEB-INF/views/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/src/main/webapp/WEB-INF/views/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/src/main/webapp/WEB-INF/views/update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/src/main/webapp/WEB-INF/views/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_views _thymeleaf/exercise/src/main/webapp/WEB-INF/views/view.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2EnszlPXnf77vsa7bIwRVAyLh3m" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/exercise/exercise1" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b53725f-6beb-4c6d-84e6-309e0e8ea6de" name="Default Changelist" comment="" />
+      <created>1663242946582</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663242946582</updated>
+      <workItem from="1663242948504" duration="19000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1663242965674">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1663242965674" />
+  </component>
+</project>

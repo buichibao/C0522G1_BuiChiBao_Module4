@@ -5,6 +5,15 @@
     <title>Title</title>
 </head>
 <body>
+<form action="/searchProduct">
+    <div class="row">
+        <div class="input-group w-25">
+            <input type="text" name="name" class="form-control form-control-sm" placeholder="Input name"
+                   aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Search</button>
+        </div>
+    </div>
+</form>
 
    <form action="/create" method="post" th:object="${product}">
        <table>
@@ -22,7 +31,7 @@
           </tr>
           <tr>
               <td>Describe</td>
-              <td><input type="text" th:field="*{describe}"></td>
+              <td><input type="text" th:field="*{describe1}"></td>
           </tr>
           <tr>
               <td>Producer</td>

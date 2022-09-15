@@ -27,7 +27,7 @@
     <tr th:each="product : ${productList}" >
         <td th:text="${product.name}"></td>
         <td th:text="${product.price}"></td>
-        <td th:text="${product.describe}"></td>
+        <td th:text="${product.describe1}"></td>
         <td th:text="${product.producer}"></td>
         <td><a class="btn btn-success" th:href="@{{id}/edit(id=${product.id})}">EDIT</a></td>
         <td><a class="btn btn-danger" th:href="@{{id}/delete(id=${product.id})}">DELETE</a></td>
