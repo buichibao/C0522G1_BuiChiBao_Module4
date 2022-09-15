@@ -20,7 +20,7 @@ public class DeclarationController {
     @Autowired
     private IDeclarationService iDeclarationService;
 
-    @GetMapping("/")
+    @GetMapping("/form")
     public String showForm(Model model){
         List<String> birthdayList = new ArrayList<>();
         List<String> countryList = new ArrayList<>();
@@ -69,7 +69,7 @@ public class DeclarationController {
 //        return new ModelAndView("/index","declarationList",iDeclarationService.findAll());
 //    }
 //
-    @GetMapping("/save")
+    @GetMapping("/")
     public String formDeclaration(Model model) {
         model.addAttribute("declaration",new Declaration());
         return "/list";

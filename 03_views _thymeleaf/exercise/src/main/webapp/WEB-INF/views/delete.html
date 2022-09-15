@@ -19,10 +19,11 @@
            </thead>
            <tbody>
            <tr>
-               <td ><input type="text" th:field="*{name}"></td>
-               <td ><input type="number" th:field="*{price}"></td>
-               <td ><input type="text" th:field="*{describe}"></td>
-               <td ><input type="text" th:field="*{producer}"></td>
+               <input hidden type="text" th:field="*{id}">
+               <td th:text="*{name}">< ></td>
+               <td th:text="*{price}"></td>
+               <td th:text="*{describe}"></td>
+               <td th:text="*{producer}"></td>
 
            </tr>
            </tbody>

@@ -25,13 +25,13 @@
     </thead>
     <tbody>
     <tr th:each="product : ${productList}" >
-        <td th:text="${product.getName()}"></td>
-        <td th:text="${product.getPrice()}"></td>
-        <td th:text="${product.getDescribe()}"></td>
-        <td th:text="${product.getProducer()}"></td>
-        <td><a class="btn btn-success" th:href="@{{id}/edit(id=${product.getId()})}">EDIT</a></td>
-        <td><a class="btn btn-danger" th:href="@{{id}/delete(id=${product.getId()})}">DELETE</a></td>
-        <td><a class="btn btn-warning" th:href="@{{id}/view(id=${product.getId()})}">VIEW</a></td>
+        <td th:text="${product.name}"></td>
+        <td th:text="${product.price}"></td>
+        <td th:text="${product.describe}"></td>
+        <td th:text="${product.producer}"></td>
+        <td><a class="btn btn-success" th:href="@{{id}/edit(id=${product.id})}">EDIT</a></td>
+        <td><a class="btn btn-danger" th:href="@{{id}/delete(id=${product.id})}">DELETE</a></td>
+        <td><a class="btn btn-warning" th:href="@{{id}/view(id=${product.id})}">VIEW</a></td>
     </tr>
     </tbody>
 

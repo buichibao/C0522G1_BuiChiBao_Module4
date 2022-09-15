@@ -29,7 +29,7 @@ public class ProductService implements IProductService {
     }
 
     @Override
-    public void update(int id, Product product) {
+    public void update(Product product) {
 
     }
 

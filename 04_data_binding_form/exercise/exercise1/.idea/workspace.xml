@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b337f5e5-27d2-43b2-92bc-51494e299c9e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../03_views _thymeleaf/practice/src/main/java/com/example/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03_views _thymeleaf/practice/src/main/java/com/example/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03_views _thymeleaf/practice/src/main/java/com/example/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03_views _thymeleaf/practice/src/main/java/com/example/service/ipml/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03_views _thymeleaf/practice/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03_views _thymeleaf/practice/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03_views _thymeleaf/practice/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03_views _thymeleaf/practice/src/main/webapp/WEB-INF/views/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03_views _thymeleaf/practice/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03_views _thymeleaf/practice/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../02_spring_controller/exercise/exercise1/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../02_spring_controller/exercise/exercise1/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../02_spring_controller/exercise/exercise1/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../02_spring_controller/exercise/exercise1/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../02_spring_controller/exercise/exercise1/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../02_spring_controller/exercise/exercise1/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../02_spring_controller/exercise/exercise1/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../02_spring_controller/exercise/exercise1/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../02_spring_controller/exercise/exercise1/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../02_spring_controller/exercise/exercise1/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../02_spring_controller/exercise/exercise1/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../02_spring_controller/exercise/exercise1/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../02_spring_controller/exercise/exercise1/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../02_spring_controller/exercise/exercise1/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../02_spring_controller/exercise/exercise2/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../02_spring_controller/exercise/exercise2/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../02_spring_controller/exercise/exercise2/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../02_spring_controller/exercise/exercise2/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../02_spring_controller/exercise/exercise2/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../02_spring_controller/exercise/exercise2/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../02_spring_controller/exercise/exercise2/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../02_spring_controller/exercise/exercise2/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../02_spring_controller/exercise/exercise2/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../02_spring_controller/exercise/exercise2/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../02_spring_controller/exercise/exercise2/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../02_spring_controller/exercise/exercise2/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../02_spring_controller/exercise/exercise2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../02_spring_controller/exercise/exercise2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../02_spring_controller/exercise/exercise2/build/classes/java/main/com/example/controller/Calculation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../02_spring_controller/exercise/exercise2/build/libs/exercise-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../02_spring_controller/exercise/exercise2/build/libs/exercise-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise2/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise2/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise2/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise2/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise2/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise2/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise2/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise2/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise2/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise2/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise2/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise2/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise2/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise2/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise2/build/classes/java/main/com/example/controller/DeclarationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise2/build/classes/java/main/com/example/controller/DeclarationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise2/build/libs/exercise2-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise2/build/libs/exercise2-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise2/src/main/java/com/example/controller/DeclarationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise2/src/main/java/com/example/controller/DeclarationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise2/src/main/webapp/WEB-INF/views/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise2/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2EkQazTlcsd6G0qpIAkkJZ1kVsO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b337f5e5-27d2-43b2-92bc-51494e299c9e" name="Default Changelist" comment="" />
+      <created>1663137169050</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663137169050</updated>
+      <workItem from="1663137172131" duration="99000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1663137268008">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1663137268008" />
+    <state x="360" y="19" key="new project wizard" timestamp="1663137269656">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="360" y="19" key="new project wizard/0.0.1536.816@0.0.1536.816" timestamp="1663137269656" />
+  </component>
+</project>
