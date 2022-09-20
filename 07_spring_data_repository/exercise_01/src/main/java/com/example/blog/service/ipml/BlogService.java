@@ -16,6 +16,11 @@ public class BlogService implements IBlogService {
    private IBlogRepository iBlogRepository;
 
     @Override
+    public Page<Blog> findByCategoryId(Pageable pageable, int id) {
+        return iBlogRepository.findByCategoryId(pageable,id);
+    }
+
+    @Override
     public Page<Blog> findAll(Pageable pageable) {
         return iBlogRepository.findAll(pageable);
     }
@@ -38,5 +43,10 @@ public class BlogService implements IBlogService {
     @Override
     public void remove(int id) {
         iBlogRepository.deleteById(id);
+    }
+
+    @Override
+    public Page<Blog> findByCategory_Blog(Pageable pageable, String name) {
+        return iBlogRepository.findByCategory_Blog(pageable,name);
     }
 }

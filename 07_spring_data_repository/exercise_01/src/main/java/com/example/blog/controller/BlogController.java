@@ -23,13 +23,13 @@ public class BlogController {
     @RequestMapping("")
     public String index(Model model, @PageableDefault(value = 1, sort = "date", direction = Sort.Direction.DESC) Pageable pageable){
         model.addAttribute("blogList",iBlogService.findAll(pageable));
-        model.addAttribute("categoryList",iCategoryService.findAll());
         return "index";
     }
 
     @RequestMapping("/create")
     public String showFormCreate(Model model){
         model.addAttribute("blog",new Blog());
+        model.addAttribute("categoryList",iCategoryService.findAll());
         return "/create";
     }
     @RequestMapping("/add")
@@ -60,6 +60,17 @@ public class BlogController {
     @GetMapping("/edit")
     public String editForm(@ModelAttribute  Blog blog){
         iBlogService.update(blog);
+        return "redirect:/";
+    }
+    @GetMapping("/{id}/viewCategory")
+    public String viewCategory(@PathVariable int id,Model model,Pageable pageable){
+        model.addAttribute("listBlog",iBlogService.findByCategoryId(pageable,id));
+        return "view_category";
+    }
+    @GetMapping("/search")
+    public String search(Model model,String enterCategory,@PageableDefault(value = 1, sort = "date", direction = Sort.Direction.DESC) Pageable pageable){
+
+        model.addAttribute("blogList",iBlogService.findByCategory_Blog(pageable,enterCategory));
         return "redirect:/";
     }
 }

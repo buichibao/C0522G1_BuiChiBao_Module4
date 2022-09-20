@@ -10,7 +10,7 @@ public class Category {
     private int id;
     private String categoryName;
 
-    @OneToMany(mappedBy = "category")
+    @OneToMany(mappedBy = "category",cascade = CascadeType.ALL)
     private Set<Blog> blog;
 
     public Category() {
@@ -45,4 +45,5 @@ public class Category {
     public void setBlog(Set<Blog> blog) {
         this.blog = blog;
     }
+
 }

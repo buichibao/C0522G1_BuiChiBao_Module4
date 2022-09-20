@@ -8,6 +8,8 @@ import java.util.List;
 
 
 public interface IBlogService {
+    Page<Blog> findByCategoryId(Pageable pageable,int id);
+
     Page<Blog> findAll(Pageable pageable);
 
     void save(Blog blog);
@@ -17,4 +19,6 @@ public interface IBlogService {
     void update(Blog blog);
 
     void remove(int id);
+
+    Page<Blog> findByCategory_Blog(Pageable pageable,String name);
 }

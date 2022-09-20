@@ -22,6 +22,14 @@
             <label for="inputName" class="form-label">Title:</label>
             <input type="text" th:field="*{title}" class="form-control" id="inputName"/>
         </div>
+
+        <div class="col-12">
+            <label for="inputName" class="form-label">Category:</label>
+            <select  th:field="*{category}">
+                 <option th:each="category : ${categoryList}" th:text="${category.categoryName}" th:value="${category.id}"></option>
+            </select>
+        </div>
+
         <div class="col-12">
             <label for="inputPrice" class="form-label">Author:</label>
             <input type="text" th:field="*{author}" class="form-control" id="inputPrice"/>

@@ -1,7 +1,7 @@
 package com.example.blog.model;
 
+
 import javax.persistence.*;
-import java.util.Locale;
 
 @Entity
 public class Blog {
@@ -14,7 +14,7 @@ public class Blog {
     @Column(columnDefinition = "TEXT")
     private String content;
 
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "Category",referencedColumnName = "id")
     private Category category;
 
@@ -67,5 +67,13 @@ public class Blog {
 
     public void setContent(String content) {
         this.content = content;
+    }
+
+    public Category getCategory() {
+        return category;
+    }
+
+    public void setCategory(Category category) {
+        this.category = category;
     }
 }
