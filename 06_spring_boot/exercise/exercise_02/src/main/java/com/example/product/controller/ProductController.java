@@ -40,7 +40,7 @@ public class ProductController {
         return "/edit";
     }
     @RequestMapping("/edit")
-    //tại sao dùng @RequestParam không đc?
+
     public String edit(Product product){
         iProductService.update(product);
         return "redirect:/";
@@ -51,17 +51,18 @@ public class ProductController {
         return "/add";
     }
     @PostMapping("/save")
-    //??
+
     public String add(Product product){
         iProductService.update(product);
         return "redirect:/";
     }
     @RequestMapping("/search")
-    //??
-    public String searchProduct(String name ,Model model){
+
+    public String searchProduct(@RequestParam String name ,Model model){
          model.addAttribute("productList",iProductService.searchByName(name));
         return "/list";
     }
-
+// Đối tượng thì dung @ModelAttribute
+// thuộc tính @RequestParam
 }
 

@@ -13,5 +13,5 @@ public interface IBlogRepository extends JpaRepository<Blog,Integer> {
 
       Page<Blog> findByCategoryId(Pageable pageable,int id);
 
-      Page<Blog> findByCategory_Blog(Pageable pageable,String name);
+      Page<Blog> findByName(Pageable pageable,String name);
 }
