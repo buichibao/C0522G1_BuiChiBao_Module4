@@ -21,10 +21,10 @@ public class BlogController {
     private ICategoryService iCategoryService;
 
     @RequestMapping("")
-    public String index(@RequestParam (value = "name", defaultValue = "") String name, Model model,
+    public String index(@RequestParam (value = "title", defaultValue = "") String title, Model model,
                         @PageableDefault(value = 2) Pageable pageable){
-        model.addAttribute("blogList",iBlogService.findByName(pageable,name));
-        model.addAttribute("name",name);
+        model.addAttribute("blogList",iBlogService.findByName(pageable,title));
+        model.addAttribute("name",title);
         return "index";
     }
 
