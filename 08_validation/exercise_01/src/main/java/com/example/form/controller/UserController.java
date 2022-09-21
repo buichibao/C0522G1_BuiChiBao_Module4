@@ -1,7 +1,7 @@
 package com.example.form.controller;
 
 import com.example.form.model.User;
-import com.example.form.model.UserDTO;
+import com.example.form.dto.UserDto;
 import com.example.form.service.IUserService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,31 +20,31 @@ public class UserController {
     @Autowired
     private IUserService iUserService;
 
-    @GetMapping()
+    @GetMapping("/list")
     public String showList(Model model){
         model.addAttribute("listUser",iUserService.findAll());
-        return "/index";
+        return "index";
     }
 
     @GetMapping("/create")
     public String showForm(Model model){
-        model.addAttribute("userDTO",new UserDTO());
-        return "/create";
+        model.addAttribute("userDTO",new UserDto());
+        return "create";
     }
     @PostMapping("/saveCreate")
-    public String saveUser(@ModelAttribute @Validated UserDTO userDTO , BindingResult bindingResult, RedirectAttributes redirectAttributes){
+    public String saveUser(@ModelAttribute("userDTO") @Validated UserDto userDTO , BindingResult bindingResult, RedirectAttributes redirectAttributes){
 
-        new UserDTO().validate(userDTO,bindingResult);
+        new UserDto().validate(userDTO,bindingResult);
 
         if(bindingResult.hasFieldErrors()){
-            return "/create";
+            return "create";
         }else {
             User user = new User();
 
             BeanUtils.copyProperties(userDTO,user);
             iUserService.save(user);
             redirectAttributes.addFlashAttribute("message","Successfully added new");
+            return "redirect:/list";
         }
-          return "redirect:/";
     }
 }

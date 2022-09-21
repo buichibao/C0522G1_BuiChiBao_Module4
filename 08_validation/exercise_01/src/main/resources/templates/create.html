@@ -33,13 +33,13 @@
         <div class="col-12">
             <label for="c" class="form-label">Phone Number:</label>
             <p style="color: red" th:if="${#fields.hasErrors('phoneNumber')}" th:errors="*{phoneNumber}"></p>
-            <input type="text" th:field="*{phoneNumber}" class="form-control" id="c"/>
+            <input type="number" th:field="*{phoneNumber}" class="form-control" id="c"/>
         </div>
 
         <div class="col-12">
             <label for="d" class="form-label">Age:</label>
             <p style="color: red" th:if="${#fields.hasErrors('age')}" th:errors="*{age}"></p>
-            <input type="text" th:field="*{age}" class="form-control" id="d"/>
+            <input type="number" th:field="*{age}" class="form-control" id="d"/>
         </div>
 
         <div class="col-12">
