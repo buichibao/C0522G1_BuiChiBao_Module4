@@ -14,6 +14,4 @@ public interface ICategoryService {
     void update (Category category);
 
     void remove(int id);
-
-
 }

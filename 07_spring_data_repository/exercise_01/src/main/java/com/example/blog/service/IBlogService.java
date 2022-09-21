@@ -20,5 +20,5 @@ public interface IBlogService {
 
     void remove(int id);
 
-    Page<Blog> findByName(Pageable pageable,String name);
+    Page<Blog> findByName(Pageable pageable,String title);
 }

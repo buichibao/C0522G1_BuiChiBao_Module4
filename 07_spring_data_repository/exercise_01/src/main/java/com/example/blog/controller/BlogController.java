@@ -22,9 +22,8 @@ public class BlogController {
 
     @RequestMapping("")
     public String index(@RequestParam (value = "name", defaultValue = "") String name, Model model,
-                        @PageableDefault(value = 1, sort = "date", direction = Sort.Direction.DESC) Pageable pageable){
-        model.addAttribute("blogList",iBlogService.findAll(pageable));
-        model.addAttribute("categoryList",iCategoryService.findAll());
+                        @PageableDefault(value = 2) Pageable pageable){
+        model.addAttribute("blogList",iBlogService.findByName(pageable,name));
         model.addAttribute("name",name);
         return "index";
     }
@@ -69,11 +68,5 @@ public class BlogController {
     public String viewCategory(@PathVariable int id,Model model,Pageable pageable){
         model.addAttribute("listBlog",iBlogService.findByCategoryId(pageable,id));
         return "view_category";
-    }
-    @GetMapping("/search")
-    public String search(Model model,String enterCategory,@PageableDefault(value = 1, sort = "date", direction = Sort.Direction.DESC) Pageable pageable){
-
-        model.addAttribute("blogList",iBlogService.findByName(pageable,enterCategory));
-        return "redirect:/";
     }
 }
