@@ -1,6 +1,6 @@
 package com.example.blog.repository;
 
-import com.example.blog.dto.BlogDto;
+import com.example.blog.dto.IBlogDto;
 import com.example.blog.model.Blog;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -17,11 +17,7 @@ public interface IBlogRepository extends JpaRepository<Blog,Integer> {
 
       Page<Blog> findByCategoryId(Pageable pageable,int id);
 
-      Page<Blog> findByTitleContaining(Pageable pageable,String title);
+      Page<Blog> findByBlogNameContaining(Pageable pageable,String name);
 
-      @Query(value = "SELECT b.blog_name as blogName, c.category_name as categoryName " +
-              "FROM blog b join category c on b.category_id = c.category_id",
-              nativeQuery= true)
-      List<BlogDto> showList();
 
 }

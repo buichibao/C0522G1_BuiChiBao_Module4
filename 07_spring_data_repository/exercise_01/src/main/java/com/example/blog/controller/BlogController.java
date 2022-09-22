@@ -23,10 +23,16 @@ public class BlogController {
     @RequestMapping("")
     public String index(@RequestParam (value = "title", defaultValue = "") String title,
                         Model model,
-                        @PageableDefault(value = 2) Pageable pageable){
+                        @PageableDefault(value = 1) Pageable pageable){
         model.addAttribute("blogList",iBlogService.findByName(pageable,title));
         model.addAttribute("name",title);
         return "index";
+    }
+
+    @RequestMapping("/title")
+    public String listTitle(Model model,@PageableDefault(value = 1) Pageable pageable){
+        model.addAttribute("titleList",iBlogService.findAllTitle(pageable));
+        return "list_title";
     }
 
     @RequestMapping("/create")

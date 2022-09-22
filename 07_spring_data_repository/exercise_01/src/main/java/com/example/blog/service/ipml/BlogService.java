@@ -1,5 +1,6 @@
 package com.example.blog.service.ipml;
 
+import com.example.blog.dto.BlogDto;
 import com.example.blog.model.Blog;
 import com.example.blog.repository.IBlogRepository;
 import com.example.blog.service.IBlogService;
@@ -48,5 +49,10 @@ public class BlogService implements IBlogService {
     @Override
     public Page<Blog> findByName(Pageable pageable, String title) {
         return iBlogRepository.findByTitleContaining(pageable,title);
+    }
+
+    @Override
+    public Page<BlogDto> findAllTitle(Pageable pageable) {
+        return iBlogRepository.findAllTitle(pageable);
     }
 }

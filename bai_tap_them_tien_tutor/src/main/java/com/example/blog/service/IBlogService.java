@@ -1,6 +1,6 @@
 package com.example.blog.service;
 
-import com.example.blog.dto.BlogDto;
+import com.example.blog.dto.IBlogDto;
 import com.example.blog.model.Blog;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -23,5 +23,4 @@ public interface IBlogService {
 
     Page<Blog> findByName(Pageable pageable,String title);
 
-    List<BlogDto> showList();
 }

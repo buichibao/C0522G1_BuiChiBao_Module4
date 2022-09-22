@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <table>
+     <tr>
+         <td>Title</td>
+     </tr>
+      <tr th:each="title : ${titleList}">
+         <td th:text="${title.title}"></td>
+      </tr>
+  </table>
+  <div style="text-align: center">
+      <a th:href="@{'/title'(page = ${titleList.number -1 })}" th:if="${titleList.hasPrevious()}">Previous</a>
+      <span th:text="${titleList.number+1}"></span>/
+      <span th:text="${titleList.totalPages}"></span>
+      <a th:href="@{'/title'(page = ${titleList.number +1})}" th:if="${titleList.hasNext()}">Next</a>
+  </div>
+</body>
+</html>

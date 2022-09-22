@@ -20,25 +20,16 @@ public class BlogController {
     @Autowired
     private ICategoryService iCategoryService;
 
-//    @RequestMapping("")
-//    public String index(@RequestParam (value = "title", defaultValue = "") String title,
-//                        Model model,
-//                        @PageableDefault(value = 2) Pageable pageable){
-//        model.addAttribute("blogList",iBlogService.findByName(pageable,title));
-//        model.addAttribute("name",title);
-//        return "index";
-//    }
-
-    @GetMapping("")
-    public String showList(@PageableDefault(value = 5, sort = "date_create", direction = Sort.Direction.DESC)
-                                   Pageable pageable, @RequestParam(value = "title", defaultValue = "")
-                                   String title, Model model) {
-
-        model.addAttribute("blogList", iBlogService.showList());
-        model.addAttribute("name", title);
-
-        return "/blog/list";
+    @RequestMapping("")
+    public String index(@RequestParam (value = "title", defaultValue = "") String title,
+                        Model model,
+                        @PageableDefault(value = 2) Pageable pageable){
+        model.addAttribute("blogList",iBlogService.findByName(pageable,title));
+        model.addAttribute("name",title);
+        return "index";
     }
+
+
 
     @RequestMapping("/create")
     public String showFormCreate(Model model){
